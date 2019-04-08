@@ -6,19 +6,21 @@ Streaming Console
 What is InsightLake Streams Console?
 -----------
 
-InsightLake Data Explorer solution is part of InsightLake Data Platform. It provides an intuitive UI and allows users to connect to various data sources and explore the data eaisly.
+InsightLake Streams Console solution is part of InsightLake Data Platform. It provides an intuitive UI and allows users to manage and govern their streaming data.
 
-Users can explore data from diferent sources like:
-* File Systems : S3, HDFS, FTP, SFTP
-* Relational Databases : Oracle, MySQL, Postgres, SQL Server, DB2
-* MPP Databases : Redshift, Impala, Presto
-* Big Data : Hive
-* NOSQL : Mongo, Hbase, Cassandra
-* Search : SOLR, Elastic Search
-* Streams : Kafka, Kinesis
-* APIs
+Following features are provided:
+* Manage multiple Kafka clusters from a centralized console
+* Monitor cluster components brokers, zookeepers etc.
+* Manage data stores (topics) & schemas easily
+* Perform data balancing
+* Manage client onboarding
+* Manage data connectors
+* Explore realtime data
+* Perform data transformations
+* Apply fine grain security like data masking, tokenization etc
+* Monitor JMX 
+* Benchmark clusters etc.
 
-To learn more, check out [http://insightlake.com/dataexplorer.html](http://insightlake.com/dataexplorer.html)
 
 Installation
 ------
