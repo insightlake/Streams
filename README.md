@@ -31,13 +31,30 @@ Installation
 * Change configuration in /conf folder to set different ports
 * By default H2 database is used, you can change the database details in jdbc.properties file
 
+Cluster Management
+------
+* Configuration
+Agents make sure that configuration is in sync on similar nodes and alerts are generated in case of deviations. 
+
+* Real time health check
+Health checks can be performed on the cluster and complete report can be viewed or downloaded from the console. Report includes important suggestions in terms of priority.
+
+* Zookeeper Data
+Admins can easily explore Zookeeper data tree.
+
 Data Management
 ------
 * Connectors - Easy data integration
 Bring data in and out of Kafka by utilizing many published connectors. Use visual flow to provision and monitor these connectors.
 * Streaming apps
+Allows easy build of micro services and Kstream apps using visual designer.
+
 * Data flows
+Visual data flow designer allows creation of complex ETL pipelines.
+
 * SQL
+Data explorer allows exploration of data using SQL queries.
+
 
 Governance
 ------
@@ -54,27 +71,47 @@ It also allows developers a read only view to adhere to approved schemas in the 
 Using topic management feature admins can create new topics, update topic parameters, flush topic data and perform topic related operations like preferred replica election and rebalancing of topic data. It also enables promotion of topics to higher environment.
 
 * Data usage policies
+Allows data governance teams to configure data usage policies.
+
 * Lineage
+Allows easy tracking of data lineage visually in streaming environment.
+
 * Data catalog
+Allows various teams to create, manage and explore streaming data catalog. Example: Teams can find which data stores (topics) contains sensitive information and what those fields are.
 
 
 Security
 ------
-* Role based access. 
-* LDAP/AD, Kerberos & SSO support.
+* Role based access
+RBAC feature enables admins to create different roles and grant access to features of streaming console to those roles. Console users can be assigned to these roles.
+
+* LDAP/AD, Kerberos & SSO support
+Console integrates login security using LDAP, File, Kerberos and SSO.
+
 * Data masking & tokenization
+Security policies can be easily defined to mask or tokenize in-flight data.
+
 * Audit logs
+Comprehensive audit logs are captured, which could be explored easily.
 
 Monitoring
 ------
-* Dashboards. 
-* JMX Monitoring.
+* Dashboards
+Look at pre-defined templates to make sure cluster is healthy and stable.
+
+* JMX Monitoring
+Monitor important JMX metrics and build dynamic dashboards.
+
 * Alerts
+Provision alerts on important metrics breaching specified thresholds.
+
 * Logs
+Monitor audit and system logs.
 
 Machine Learning
 ------
 * Anomaly Detection
+Perform real time anomaly detection, clustering and window based machine learning models.
 
 License
 ------
