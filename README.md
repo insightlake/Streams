@@ -3,7 +3,7 @@
 # Streams
 Streaming Console
 
-What is InsightLake Data Explorer?
+What is InsightLake Streams Console?
 -----------
 
 InsightLake Data Explorer solution is part of InsightLake Data Platform. It provides an intuitive UI and allows users to connect to various data sources and explore the data eaisly.
@@ -27,6 +27,14 @@ Installation
 * Open browser with URL as http://localhost:8080/
 * Change configuration in /conf folder to set different ports
 * By default H2 database is used, you can change the database details in jdbc.properties file
+
+Security
+------
+* Role based access. 
+* LDAP/AD, Kerberos & SSO support.
+* Data masking & tokenization
+* Audit logs
+
 
 
 License
