@@ -15,6 +15,7 @@ Following features are provided:
 * Perform data balancing
 * Manage client onboarding
 * Manage data connectors
+* Build streaming data flows quickly
 * Explore realtime data
 * Perform data transformations
 * Apply fine grain security like data masking, tokenization etc
@@ -30,6 +31,23 @@ Installation
 * Change configuration in /conf folder to set different ports
 * By default H2 database is used, you can change the database details in jdbc.properties file
 
+Data Management
+------
+* Connectors
+* Streaming apps
+* Data flows
+* SQL
+
+Governance
+------
+* Onboarding 
+* Schema management
+* Topic management
+* Data usage policies
+* Lineage
+* Data catalog
+
+
 Security
 ------
 * Role based access. 
@@ -37,7 +55,16 @@ Security
 * Data masking & tokenization
 * Audit logs
 
+Monitoring
+------
+* Dashboards. 
+* JMX Monitoring.
+* Alerts
+* Logs
 
+Machine Learning
+------
+* Anomaly Detection
 
 License
 ------
