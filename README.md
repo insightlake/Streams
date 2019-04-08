@@ -33,7 +33,8 @@ Installation
 
 Data Management
 ------
-* Connectors
+* Connectors - Easy data integration
+Bring data in and out of Kafka by utilizing many published connectors. Use visual flow to provision and monitor these connectors.
 * Streaming apps
 * Data flows
 * SQL
@@ -41,8 +42,17 @@ Data Management
 Governance
 ------
 * Onboarding 
+Onboard new applications to Kafka platform and maintain a central repository to manage these apps. Admins can use this information to contact app owners for notifications, check what versions and technology app's clients are using.
+It also allows app ownners to own topics and underline data, allow data users permissions to produce and consume data.
+It also guides admins to standardize topic creation with right number of partitions, local replicas and inter cluster replication etc. It allows promotion of apps, data flows to higher environment.
+
 * Schema management
+Schema management allows admins to create and update schemas, maintain versions and compatibility. It tracks schema change audit logs.
+It also allows developers a read only view to adhere to approved schemas in the applications.
+
 * Topic management
+Using topic management feature admins can create new topics, update topic parameters, flush topic data and perform topic related operations like preferred replica election and rebalancing of topic data. It also enables promotion of topics to higher environment.
+
 * Data usage policies
 * Lineage
 * Data catalog
