@@ -51,6 +51,7 @@ Allows easy build of micro services and Kstream apps using visual designer.
 
 * Data flows
 Visual data flow designer allows creation of complex ETL pipelines.
+<img style="width:100%;" src="streams-designer.png">
 
 * SQL
 Data explorer allows exploration of data using SQL queries.
