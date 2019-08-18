@@ -231,7 +231,7 @@ Monitor important JMX metrics and build dynamic dashboards.
 Create and manage alerts
 Perform historical analysis
 
-<img style="width:100%;" src="images/streams-alert.png">
+<img style="width:100%;" src="images/streams-alerts.png">
 Provision alerts on important metrics breaching specified thresholds.
 
 * Logs
