@@ -31,6 +31,10 @@ Installation
 * Change configuration in /conf folder to set different ports
 * By default H2 database is used, you can change the database details in jdbc.properties file
 
+## Demo Link
+https://insightlake.s3.amazonaws.com/releases/schema/index.html
+
+
 Cluster Management
 ------
 Simplified UI for Confluent Kafka Deployment & Cluster Management
