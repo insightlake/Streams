@@ -249,3 +249,13 @@ Perform real time anomaly detection, clustering and window based machine learnin
 License
 ------
 InsightLake Data Explorer is a commercial product but distributed to be used freely. Please contact contact@insightlake.com for details.
+
+Getting Help
+----------
+
+You can get help easily :
+Slack Channel - [Join InsightLake Slack Community](https://join.slack.com/t/insightlake/shared_invite/enQtNzQzMDE3MDI4ODA1LWM2YmI5MDUzODM5ZjQzZjE3ZDk1MjhiNThjMTBkODJjMGU2OWJmOWQ0MDE5NGI4YjYyYjVhZjEzYzY3YzIzMjY)
+
+Twitter - https://twitter.com/InsightLake
+
+Facebook - https://www.facebook.com/insightlake/
