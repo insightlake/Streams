@@ -32,7 +32,7 @@ Installation
 * By default H2 database is used, you can change the database details in jdbc.properties file
 
 ## Demo Link
-https://insightlake.s3.amazonaws.com/releases/schema/index.html
+https://insightlake.s3.amazonaws.com/releases/streams/index.html
 
 
 Cluster Management
