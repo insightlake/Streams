@@ -223,6 +223,23 @@ Consumer Lag
 Producer & Consumers
 Cluster components
 
+Enable JMX Monitoring for Kafka Brokers
+In order to get custom Kafka metrics we need to enable JMX monitoring for Kafka Broker Daemon.
+
+To enable JMX Monitoring for Kafka broker, please follow below instructions:
+
+Edit kafka-run-class.sh and modify KAFKA_JMX_OPTS variable like below (please replace red text with your Kafka Broker hostname)
+
+KAFKA_JMX_OPTS="-Dcom.sun.management.jmxremote=true -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=127.0.0.1 -Djava.net.preferIPv4Stack=true"
+Add below line in kafka-server-start.sh (in case of Hortonworks hadoop, path is /usr/hdp/current/kafka-broker/bin/kafka-server-start.sh)
+
+export JMX_PORT=${JMX_PORT:-9999}
+ 
+
+put zookeeper.connect=127.0.0.1:2181 in server.properties in kafka files
+
+That’s it! Please do the above steps on all Kafka brokers and restart the kafka brokers ( manually or via management UI whatever applicable)
+
 <img style="width:100%;" src="images/streams-jmx.png">
 
 Role based access on UI
