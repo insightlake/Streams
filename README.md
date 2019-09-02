@@ -240,6 +240,38 @@ put zookeeper.connect=127.0.0.1:2181 in server.properties in kafka files
 
 That’s it! Please do the above steps on all Kafka brokers and restart the kafka brokers ( manually or via management UI whatever applicable)
 
+download jar file 
+
+https://www.robustperception.io/monitoring-kafka-with-prometheus
+
+ - check version of jar file and command 
+ - enter after command hit
+ - check the api 
+
+
+
+
+you need put jar file under confluet bin location or pass correct path jar and yml file in following command 
+
+
+
+use follwing command under confluet bin direcotry 
+
+./bin/zookeeper-server-start.sh config/zookeeper.properties &
+KAFKA_OPTS="$KAFKA_OPTS -javaagent:$PWD/jmx_prometheus_javaagent-0.6.jar=7071:$PWD/kafka-0-8-2.yml" \
+  ./bin/kafka-server-start.sh config/server.properties &
+
+
+setup prometheus on 9090 and start after starting check following api will give metrix and our graph will work
+
+
+http://localhost:9090/api/v1/query_range?query=rate(kafka_server_brokertopicmetrics_totalproducerequests_total%7Btopic%20!=%20%22%22%7D%5B1m%5D)&start=1554967125&end=1554967425&step=15
+
+
+for more ref check 
+https://www.robustperception.io/monitoring-kafka-with-prometheus
+
+
 <img style="width:100%;" src="images/streams-jmx.png">
 
 Role based access on UI
