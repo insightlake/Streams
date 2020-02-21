@@ -88,7 +88,7 @@ Admins can easily explore Zookeeper data tree.
 
 <img style="width:100%;" src="images/zookeeper-tab/zookeeper-page.png">
 
-Perform data balancing
+* Perform data balancing
 Reassign partitions
 
 <img style="width:100%;" src="images/partitions/reassign-partitions.png">
@@ -106,6 +106,7 @@ Tools
 Generate sample data
 Test producer & consumer
 Run data generation for testing
+
 <img style="width:100%;" src="images/data-geneartion-tab/send-data.png">
 
 Performance Tests – Producer | Consumer
