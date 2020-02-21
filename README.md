@@ -114,7 +114,6 @@ Historical Comparisons
 <img style="width:100%;" src="images/kafka-performance-tab/graph-result.png">
 
 
-
 Data Management
 ------
 Explore real time data
@@ -150,8 +149,6 @@ Join, Filter, UDFs etc.
 
 Data explorer allows exploration of data using SQL queries.
 <img style="width:100%;" src="images/ksql-tab/ksql-describe.png">
-<img style="width:100%;" src="images/ksql-tab/ksql-describe.png">
-
 
 Governance
 ------
@@ -172,6 +169,8 @@ Schema designer
 Data catalog integration
 
 <img style="width:100%;" src="images/schema-tab/schemas-page.png">
+<img style="width:100%;" src="images/schema-tab/schema-info.png">
+
 
 Schema management allows admins to create and update schemas, maintain versions and compatibility. It tracks schema change audit logs.
 It also allows developers a read only view to adhere to approved schemas in the applications.
@@ -201,7 +200,7 @@ Allows various teams to create, manage and explore streaming data catalog. Examp
 Security
 ------
 * Role based access
-<img style="width:100%;" src="images/streams-acl.png">
+<img style="width:100%;" src="images/kafka-acls/acls-page.png">
 RBAC feature enables admins to create different roles and grant access to features of streaming console to those roles. Console users can be assigned to these roles.
 
 * LDAP/AD, Kerberos & SSO support
@@ -286,7 +285,7 @@ https://www.robustperception.io/monitoring-kafka-with-prometheus
 Role based access on UI
 Admins, Developers, Business Users roles
 
-<img style="width:100%;" src="images/streams-acl.png">
+<img style="width:100%;" src="images/kafka-acls/acls-page.png">
 Monitor important JMX metrics and build dynamic dashboards.
 
 * Alerts
