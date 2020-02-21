@@ -59,10 +59,12 @@ Manage DEV, QA, PROD, DR Clusters
 
 <img style="width:100%;" src="images/cluster-tab/selected-cluster-page.png">
 
-Brokers - Check broker status and metrics
+* Brokers - Check broker status and metrics
+
 <img style="width:100%;" src="images/broker-tab/broker-page.png">
 
-Consumer - Status and metrics
+* Consumer - Status and metrics
+
 <img style="width:100%;" src="images/consumer-tab/consumer-page.png">
 
 Manage Kafka Users
@@ -83,6 +85,7 @@ Config Recommendations
 
 * Zookeeper Data
 Admins can easily explore Zookeeper data tree.
+
 <img style="width:100%;" src="images/zookeeper-tab/zookeeper-page.png">
 
 Perform data balancing
@@ -108,11 +111,9 @@ Run data generation for testing
 Performance Tests – Producer | Consumer
 Historical Comparisons
 
-
 <img style="width:100%;" src="images/kafka-performance-tab/kafka-perf-page.png">
 <img style="width:100%;" src="images/kafka-performance-tab/sub-report.png">
 <img style="width:100%;" src="images/kafka-performance-tab/graph-result.png">
-
 
 Data Management
 ------
@@ -181,6 +182,7 @@ Topic Creation | Promotion
 Data owner, consumers & producers
 
 <img style="width:100%;" src="images/topics-tab/topic-page.png">
+
 Using topic management feature admins can create new topics, update topic parameters, flush topic data and perform topic related operations like preferred replica election and rebalancing of topic data. It also enables promotion of topics to higher environment.
 
 * Data usage policies
@@ -190,10 +192,13 @@ Allows data governance teams to configure data usage policies.
 Trace topic level data lineage
 
 <img style="width:100%;" src="images/streams-lineage.png">
+
 Allows easy tracking of data lineage visually in streaming environment.
 
 * Data catalog
+
 <img style="width:100%;" src="images/streams-catalog.png">
+
 Allows various teams to create, manage and explore streaming data catalog. Example: Teams can find which data stores (topics) contains sensitive information and what those fields are.
 
 
@@ -211,6 +216,7 @@ Mask sensitive data
 Disallow access
 
 <img style="width:100%;" src="images/streams-dlp.png">
+
 Security policies can be easily defined to mask or tokenize in-flight data.
 
 * Audit logs
@@ -222,6 +228,7 @@ Monitoring
 Build real time dashboards backed by Kafka
 
 <img style="width:100%;" src="images/streams-dashboard.png">
+
 Look at pre-defined templates to make sure cluster is healthy and stable.
 
 * JMX Monitoring
@@ -286,6 +293,7 @@ Role based access on UI
 Admins, Developers, Business Users roles
 
 <img style="width:100%;" src="images/kafka-acls/acls-page.png">
+
 Monitor important JMX metrics and build dynamic dashboards.
 
 * Alerts
@@ -293,6 +301,7 @@ Create and manage alerts
 Perform historical analysis
 
 <img style="width:100%;" src="images/streams-alerts.png">
+
 Provision alerts on important metrics breaching specified thresholds.
 
 * Logs
