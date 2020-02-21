@@ -57,7 +57,7 @@ Agents make sure that configuration is in sync on similar nodes and alerts are g
 Centrally manage clusters
 Manage DEV, QA, PROD, DR Clusters
 
-<img style="width:100%;" src="images/streams-cluster.png">
+<img style="width:100%;" src="images/cluster-tab/selected-cluster-page.png">
 
 Brokers - Check broker status and metrics
 <img style="width:100%;" src="images/streams-broker.png">
