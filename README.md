@@ -60,10 +60,10 @@ Manage DEV, QA, PROD, DR Clusters
 <img style="width:100%;" src="images/cluster-tab/selected-cluster-page.png">
 
 Brokers - Check broker status and metrics
-<img style="width:100%;" src="images/streams-broker.png">
+<img style="width:100%;" src="images/broker-tab/broker-page.png">
 
 Consumer - Status and metrics
-<img style="width:100%;" src="images/streams-consumer.png">
+<img style="width:100%;" src="images/consumer-tab/consumer-page.png">
 
 Manage Kafka Users
 Local
@@ -71,7 +71,7 @@ SCRAM
 LDAP/AD
 OAUTH
 
-<img style="width:100%;" src="images/streams-user.png">
+<img style="width:100%;" src="images/user-tab/user-details.png.png">
 
 * Real time health check
 Health checks can be performed on the cluster and complete report can be viewed or downloaded from the console. Report includes important suggestions in terms of priority.
@@ -83,7 +83,7 @@ Config Recommendations
 
 * Zookeeper Data
 Admins can easily explore Zookeeper data tree.
-<img style="width:100%;" src="images/streams-zk.png">
+<img style="width:100%;" src="images/zookeeper-tab/zookeeper-page.png">
 
 Perform data balancing
 Reassign partitions
