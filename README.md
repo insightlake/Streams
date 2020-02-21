@@ -71,7 +71,7 @@ SCRAM
 LDAP/AD
 OAUTH
 
-<img style="width:100%;" src="images/user-tab/user-details.png.png">
+<img style="width:100%;" src="images/user-tab/user-details.png">
 
 * Real time health check
 Health checks can be performed on the cluster and complete report can be viewed or downloaded from the console. Report includes important suggestions in terms of priority.
@@ -88,28 +88,32 @@ Admins can easily explore Zookeeper data tree.
 Perform data balancing
 Reassign partitions
 
-<img style="width:100%;" src="images/streams-databalance.png">
+<img style="width:100%;" src="images/partitions/reassign-partitions.png">
 
 Perform preferred replica assignments
 
-<img style="width:100%;" src="images/streams-replica.png">
+<img style="width:100%;" src="images/partitions/preffered-replica-partitions.png">
 
 Build multi-tenant cluster with quotas
 View quota usage
 
-<img style="width:100%;" src="images/streams-quota.png">
+<img style="width:100%;" src="images/quota-tab/quota-page.png">
 
 Tools
 Generate sample data
 Test producer & consumer
 Run data generation for testing
-<img style="width:100%;" src="images/streams-datagen.png">
+<img style="width:100%;" src="images/data-geneartion-tab/send-data.png">
 
 Performance Tests – Producer | Consumer
 Historical Comparisons
 
 
-<img style="width:100%;" src="images/streams-perf.png">
+<img style="width:100%;" src="images/kafka-performance-tab/kafka-perf-page.png">
+<img style="width:100%;" src="images/kafka-performance-tab/sub-report.png">
+<img style="width:100%;" src="images/kafka-performance-tab/graph-result.png">
+
+
 
 Data Management
 ------
@@ -121,7 +125,9 @@ Explore real time data
 Bring data in and out of Kafka by utilizing many published connectors. Use visual flow to provision and monitor these connectors. Manage Kafka Integration
 Manage connectors
 
-<img style="width:100%;" src="images/streams-connectors.png">
+<img style="width:100%;" src="images/connector-tab/connector-page.png">
+<img style="width:100%;" src="images/connector-tab/connector-configuration.png">
+
 
 * Streaming apps
 Allows easy build of micro services and Kstream apps using visual designer.
@@ -143,14 +149,16 @@ Simplified SQL centric data transformations
 Join, Filter, UDFs etc.
 
 Data explorer allows exploration of data using SQL queries.
-<img style="width:100%;" src="images/streams-sql.png">
+<img style="width:100%;" src="images/ksql-tab/ksql-describe.png">
+<img style="width:100%;" src="images/ksql-tab/ksql-describe.png">
+
 
 Governance
 ------
 * Onboarding 
 Manage Kafka applications
 Govern data ownership
-<img style="width:100%;" src="images/streams-apps.png">
+<img style="width:100%;" src="images/apps-tab/apps-page.png">
 Onboard new applications to Kafka platform and maintain a central repository to manage these apps. Admins can use this information to contact app owners for notifications, check what versions and technology app's clients are using.
 It also allows app ownners to own topics and underline data, allow data users permissions to produce and consume data.
 It also guides admins to standardize topic creation with right number of partitions, local replicas and inter cluster replication etc. It allows promotion of apps, data flows to higher environment.
@@ -163,7 +171,8 @@ Validate and test compatibility
 Schema designer
 Data catalog integration
 
-<img style="width:100%;" src="images/streams-schema.png">
+<img style="width:100%;" src="images/schema-tab/schemas-page.png">
+
 Schema management allows admins to create and update schemas, maintain versions and compatibility. It tracks schema change audit logs.
 It also allows developers a read only view to adhere to approved schemas in the applications.
 
@@ -172,7 +181,7 @@ It also allows developers a read only view to adhere to approved schemas in the 
 Topic Creation | Promotion
 Data owner, consumers & producers
 
-<img style="width:100%;" src="images/streams-topic.png">
+<img style="width:100%;" src="images/topics-tab/topic-page.png">
 Using topic management feature admins can create new topics, update topic parameters, flush topic data and perform topic related operations like preferred replica election and rebalancing of topic data. It also enables promotion of topics to higher environment.
 
 * Data usage policies
