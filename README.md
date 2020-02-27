@@ -59,6 +59,11 @@ Manage DEV, QA, PROD, DR Clusters
 
 <img style="width:100%;" src="images/cluster-tab/selected-cluster-page.png">
 
+* Verify Cluster 
+
+<img style="width:100%;" src="images/cluster-tab/verify-cluster.png">
+
+
 * Brokers - Check broker status and metrics
 
 <img style="width:100%;" src="images/broker-tab/broker-page.png">
