@@ -44,9 +44,9 @@ for f in $EDP_HOME/libs/*.jar; do
     CLASSPATH=${CLASSPATH}:$f;
 done
 
-echo "Starting Zookeeper backend ..."
-nohup java -jar $EDP_HOME/libs/edp-zookeeper-1.0.jar com.insightlake.edp.zookeeper.EdpZkApp --spring.config.name=h2 --spring.config.location=file:///$EDP_HOME/conf/h2.properties >/dev/null 2>&1 &
+echo "Starting Data-visualizer backend ..."
+nohup java -Dthin.root=$EDP_HOME/libs/thin/root -jar $EDP_HOME/libs/thin/root/edp-kafka-1.0.jar --spring.config.name=h2 --spring.config.location=$EDP_HOME/conf/jdbc.properties >/dev/null 2>&1 &
 
-echo "Starting Schema UI"
-nohup java -jar $EDP_HOME/libs/edp-zookeeper-ui-1.0.jar com.insightlake.edp.zookeeper.ui.Application --spring.config.name=ui --spring.config.location=file:///$EDP_HOME/conf/ui.properties >/dev/null 2>&1 &
+echo "Starting Data-visualizer Ui ..."
+nohup java -jar $EDP_HOME/libs/edp-streams-ui-1.0.jar  --spring.config.location=file:///$EDP_HOME/conf/api-ui.properties >/dev/null 2>&1 &
 
