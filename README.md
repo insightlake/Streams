@@ -306,6 +306,7 @@ Machine Learning
 * Anomaly Detection
 Perform real time anomaly detection, clustering and window based machine learning models.
 
+To learn more, check out [http://www.insightlake.com/streams.html](http://www.insightlake.com/streams.html)
 
 
 Installation
